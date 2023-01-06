@@ -2,7 +2,7 @@
 
 This project demonstrates a bug where Vite is trying to access a non-existant directory in `node_modules/` when running on Docker.
 
-## Steps
+## Steps
 
 To reproduce ensure you have Docker and Docker Compose then:
 
