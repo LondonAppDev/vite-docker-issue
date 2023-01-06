@@ -2,6 +2,15 @@
 
 This project demonstrates a bug where Vite is trying to access a non-existant directory in `node_modules/` when running on Docker.
 
+## Steps
+
+To reproduce ensure you have Docker and Docker Compose then:
+
+ 1. Clone this project
+ 2. Run `docker-compose build`
+ 3. Run `docker-compose up`
+
+
 The error given is:
 
 ```
@@ -30,11 +39,3 @@ vue-docker-issue-app-1  | }
 vue-docker-issue-app-1  |
 vue-docker-issue-app-1  | Node.js v18.12.1
 ```
-
-## Steps
-
-To reproduce ensure you have Docker and Docker Compose then:
-
- 1. Clone this project
- 2. Run `docker-compose build`
- 3. Run `docker-compose up`
